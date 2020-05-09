@@ -4,7 +4,7 @@
   "description": "Visualization for Physics Informed Neural Networks",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --devtool source-map",
+    "build": "webpack",
     "start": "npm run build && webpack-dev-server",
     "serve": "npm run webpack-dev-server"
   },

@@ -21,3 +21,5 @@ model.trainAdam(t, t, u, 1000);
 const u_hat = model.predict(t);
 
 const mse = tf.losses.meanSquaredError(u_hat, u);
+mse.print();
+mse.print();
